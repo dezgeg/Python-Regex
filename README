@@ -1,0 +1,5 @@
+Käyttö:
+-grep-työkaluna: python Main.py lauseke tiedosto, esim. python Main.py '.*foo.*' tests/foo.txt
+-ohjelman sisäisen toiminnan testaamiseen: python Main.py -t testitiedosto, esim. python Main.py -t tests/succesful.dat
+
+Lisäksi yksikkötestit normaaleina python-unittesteinä Test.py-päätteisissä tiedostoissa.
